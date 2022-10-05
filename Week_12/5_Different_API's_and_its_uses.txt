@@ -1,0 +1,9 @@
+https://developer.spotify.com/albums/{id} - used to verify the release date value such as year , month , day
+
+https://api.zoom.us/v2/users/{userId}/recordings - used to verify the recordings with the user ID / email ID 
+
+https://darksky.net/dev - used to calculate accurate whether forecasts
+
+https://any-api.com/googleapis_com/bigquery/docs/projects/bigquery_projects_list - used to verify  Your API key identifies your project and provides you with API access, quota, and reports
+
+https://developer.apple.com/app-store-connect/api/ - used to Customize and automate your workflows so you can focus on creating great apps. This standards-based REST API lets you automate tasks across developer tools, such as App Store Connect, Xcode, and Certificates, Identifiers & Profiles, to give you greater flexibility and efficiency in your workflows.
