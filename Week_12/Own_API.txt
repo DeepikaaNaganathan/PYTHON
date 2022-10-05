@@ -1,0 +1,5 @@
+FindHotels-used to find where did veg_meals available and nonveg meals separately or even both
+        though we have google to search if it is separately like google maps ....If we have separatly for hotels it will be helpful for foodies 
+
+For_turning_of_motor - used for indication that the motor should be turnred of within 5 mins so that the user could know about the water level 
+                       and for turning it on before it touches the 0th level
