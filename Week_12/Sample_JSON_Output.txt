@@ -1,0 +1,36 @@
+FindHotels:
+Hotel name and whether it is veg or non veg or both veg and nonveg is given as input
+    {
+       Hotel_Name : "Arunachala"
+       Type : "Both"
+       place : "Madurai-Southgate"
+    }
+    {
+       Hotel_Name : "Paechiyamman"
+       Type : "NonVeg"
+       place : "Madurai-Villapuram"   
+    }
+    {
+       Hotel_Name : "Sabarees"
+       Type : "veg"
+       place : "Madurai-Periyar"
+    }
+
+
+For_turning_of_motor:
+water level and turn of or turn on 
+    {
+        Water_level:"NORMAL"
+        Turn_of_motor:"NO"
+        Turn_on_motor:"NO"
+    }
+    {
+        Water_level:"HIGH"
+        Turn_of_motor:"YES"
+    }
+    {
+        Water_level:"LOW"
+        Turn_on_motor:"ON"
+    }
+
+
