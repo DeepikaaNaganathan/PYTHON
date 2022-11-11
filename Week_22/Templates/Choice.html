@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acc_Info</title>
+        <style>
+            h2{
+                color: rgb(245, 251, 252);
+            }
+            button{
+                height: 1cm;
+                width: max-content;
+                color: #ffffff;
+                font: optional;
+                font-size: medium;
+                font-family: 'Lucida Sans';
+                background-color: rgb(77, 8, 64);
+                border-radius: 10%;
+                border-color: rgb(16, 16, 16);
+            }
+        </style>
+        <script src = "https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btnAdd").click(function(e){
+                    $.ajax({
+                        success:function(r){
+                            window.location.href = 'http://127.0.0.1:5000/addproducts' 
+                        },
+                        error:function(r){
+                            $("#lblMessage").text("Error Occured");
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body style="text-align: center; background-color: rgb(235, 100, 196);" >
+        <h2>Welcome to "Acc_Info"</h2> </br></br></br>
+        <button id = "btnAdd">Add patients</button> </br></br></br>
+        <button id = "btnView">View Patients</button>
+
+        <label id = "lblMessage"></label>
+    </body>
+</html>
